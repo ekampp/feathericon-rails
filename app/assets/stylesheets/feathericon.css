@@ -7,18 +7,14 @@
 /**
  * font path
  */
- @font-face {
-  font-family: 'feathericon';
-  src: url('feathericon.eot');
-  src: url('feathericon.eot?#iefix') format('embedded-opentype'),
-    url('feathericon.woff2') format('woff2'),
-    url('feathericon.woff') format('woff'),
-    url('feathericon.ttf') format('truetype'),
-    url('feathericon.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
- }
+@font-face {
+  font-family: "feather";
+  src: url('iconfont.eot?t=1501834582692'); /* IE9*/
+  src: url('iconfont.eot?t=1501834582692#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1501834582692') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1501834582692') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1501834582692#feather') format('svg'); /* iOS 4.1- */
+}
 
 
 /**
